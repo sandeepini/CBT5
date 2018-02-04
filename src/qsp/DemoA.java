@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
+
 public class DemoA {
 @Test
 public void testA() throws Exception {
@@ -20,8 +21,7 @@ public void testA() throws Exception {
 	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("http://www.google.com");
-	
-	driver.quit();
+		driver.quit();
 	
 }
 }
